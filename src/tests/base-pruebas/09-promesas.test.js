@@ -2,7 +2,7 @@ import { getHeroeByIdAsync } from "../../base-pruebas/09-promesas"
 import {heroes} from '../../data/heroes'
 
 describe('Test sobre archivo 09-promesas', () => { 
-    test('Deberia retornar un heroe (Async)', (done) => { 
+    test('Deberia retornar un heroe (Promises)', (done) => { 
         
         const id = 1;
 
@@ -19,7 +19,7 @@ describe('Test sobre archivo 09-promesas', () => {
 
      });
 
-    test('Deberia retornar un error si heroe no existe (Async)', (done) => { 
+    test('Deberia retornar un error si heroe no existe (Promises)', (done) => { 
         
         const id = 100;
 
