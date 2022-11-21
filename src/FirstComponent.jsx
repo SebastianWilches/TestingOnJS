@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 export const FirstComponent = ({ titulo, parrafo, suma }) => {
     return (
         <>
-            <h1>{titulo}</h1>
+            <h1 data-testid="test-title">{titulo}</h1>
+            <p>{parrafo}</p>
+            <p>{parrafo}</p>
             <p>{parrafo}</p>
             <p>{suma + 30}</p>
         </>
