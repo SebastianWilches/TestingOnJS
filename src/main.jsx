@@ -8,8 +8,8 @@ import {FirstComponent} from './FirstComponent'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <FirstComponent titulo="Hola, soy el titulo" parrafo="LoremIpsum" />
-        {/* <CounterApp value={10}></CounterApp> */}
+        {/* <FirstComponent titulo="Hola, soy el titulo" parrafo="LoremIpsum" /> */}
+        <CounterApp value={10}></CounterApp>
     </React.StrictMode>
 )
 
